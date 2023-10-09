@@ -39,11 +39,20 @@ export default function Home() {
           4- Runoff: The rain or melted snow that falls on the Earth can go two ways: it either soaks into the ground and goes into rivers and lakes, or it forms puddles and streams that flow directly into rivers. <br />
           <br />5- Accumulation: The water that goes into rivers and lakes stays there for a while. Later, it can evaporate again, continue flowing in the river, or eventually reach the ocean.
         </p>
+        <a href="#whatIsClimateChange" id="btn">What Is Climate Change?</a>
+      </section>
+
+      <section id="whatIsClimateChange" class="sec">
+        <a href="#waterCycle2" id="btn">Water Cycle 2</a>
+        <h2>What Is Climate Change?</h2>
+        <p>
+          Climate change describes a change in the average conditions — such as temperature and rainfall — in a region over a long period of time. NASA scientists have observed Earth’s surface is warming, and many of the warmest years on record have happened in the past 20 years.
+        </p>
         <a href="#climateChange" id="btn">Climate Change</a>
       </section>
       
       <section id="climateChange" class="sec">
-        <a href="#waterCycle2" id="btn">Water Cycle 2</a>
+        <a href="#whatIsClimateChange" id="btn">What Is Climate Change?</a>
         <h2>Climate Change</h2>
         <p>
           The Earth's weather has changed a little bit over a very long time. But now, it's getting warmer faster than it has in a really, really long time, like more than 10,000 years!
