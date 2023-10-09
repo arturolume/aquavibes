@@ -23,7 +23,7 @@ export default function Home() {
 
       <section id="waterCycle" class="sec">
         <a href="#home" id="btn">Home</a>
-        <h2>Water Cycle 1</h2>
+        <h2>Water Cycle</h2>
         <p>
           1- Evaporation: Water from the oceans, rivers, lakes, and puddles gets heated by the sun and turns into vapor. Imagine the water turning into "invisible clouds" that go up into the sky. <br />
           <br />2- Condensation: The water vapor cools in the sky and turns back into tiny water droplets. This forms clouds, which look like fluffy cotton in the sky. <br />
@@ -34,7 +34,7 @@ export default function Home() {
       
       <section id="waterCycle2" class="sec">
         <a href="#waterCycle" id="btn">Water Cycle 1</a>
-        <h2>Water Cycle 2</h2>
+        <h2>Water Cycle</h2>
         <p>
           4- Runoff: The rain or melted snow that falls on the Earth can go two ways: it either soaks into the ground and goes into rivers and lakes, or it forms puddles and streams that flow directly into rivers. <br />
           <br />5- Accumulation: The water that goes into rivers and lakes stays there for a while. Later, it can evaporate again, continue flowing in the river, or eventually reach the ocean.
@@ -66,7 +66,7 @@ export default function Home() {
         <p>
           Scientists use different tools and sources of information to understand how the climate is changing. Some of these are very old, like pieces of ice, rocks, and tree rings. They also use modern technology, like satellites and special machines.
         </p>
-        <a href="#evidenceOfWarning" id="btn">Evidence of Warming:</a>
+        <a href="#evidenceOfWarning" id="btn">Evidence of Warming</a>
       </section>
 
       <section id="evidenceOfWarning" class="sec">
