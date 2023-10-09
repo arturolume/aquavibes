@@ -15,6 +15,7 @@ export default function Home() {
           <br />Water
         </h2>
         <a href="#segundo" id="btn">Explore</a>
+        
       </section>
 
       <section id="segundo" class="sec">
@@ -34,6 +35,16 @@ export default function Home() {
           consectetur ad ipsum deserunt.
         </p>
       </section>
+      <footer id="footer">
+        <a href="https://fresh.deno.dev" id="deno-btn">
+          <img
+            id="deno"
+            src="https://fresh.deno.dev/fresh-badge.svg"
+            alt="Made with Fresh"
+          />
+        </a>
+        <p>Developed by <a href="https://rak1u.deno.dev/">Rak1u</a></p>
+      </footer>
     </div>
   );
 }
