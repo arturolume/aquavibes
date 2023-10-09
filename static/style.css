@@ -16,9 +16,20 @@ html
 
 body 
 {
-  overflow: hidden;
+  overflow: smooth;
   background: #fff;
   min-height: 100vh;
+}
+
+#footer 
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: #094b65;
 }
 
 #header 
@@ -100,6 +111,12 @@ section img
   width: 100%;
   height: 100%;
   object-fit: cover;
+  pointer-events: none;
+}
+
+#deno {
+  width: 197px;
+  height: 37px;
   pointer-events: none;
 }
 
@@ -187,6 +204,15 @@ section #text span
 
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
+  #footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  #footer > * {
+    margin-bottom: 10px;
+  }
   section #text {
     font-size: 4vh;
   }
